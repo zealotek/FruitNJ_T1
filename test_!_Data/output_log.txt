@@ -1,0 +1,22 @@
+Initialize engine version: 4.5.2f1 (9abb1b59b47c)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 540M          (ID=0xdf4)
+    Vendor:   NVIDIA
+    VRAM:     993 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: G:\Unity\test_3\test_!_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading G:\Unity\test_3\test_!_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: G:\Unity\test_3\test_!_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading G:\Unity\test_3\test_!_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.060 seconds
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.862994 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 107.
+Total: 1.815678 ms (FindLiveObjects: 0.045960 ms CreateObjectMapping: 0.021418 ms MarkObjects: 0.273534 ms  DeleteObjects: 0.041944 ms)
+
