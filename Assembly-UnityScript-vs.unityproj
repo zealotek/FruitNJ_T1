@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{C6C77CBA-D04D-CD90-848B-9741A5024B23}</ProjectGuid>
+	<ProjectGuid>{C721B194-2AFE-5075-A1DC-7F108057FF04}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,13 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\script\Script_03_09.js" />
+     <Compile Include="Assets\script\fall_out.js" />
      <Compile Include="Assets\script\mousePos.js" />
      <Compile Include="Assets\script\pupu.js" />
      <Compile Include="Assets\script\pupu_destory.js" />
      <Compile Include="Assets\script\pupu_hit.js" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
- <HintPath>E:/Workspace/Unity/test_3/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ <HintPath>E:/Workspace/Unity/FruitNJ_T1/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

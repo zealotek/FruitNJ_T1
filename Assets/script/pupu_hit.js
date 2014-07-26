@@ -2,6 +2,8 @@
 
 private var child : Component[];
 
+public var music_cut : AudioSource;
+
 var check : int;
 
 function Start () {
@@ -12,6 +14,11 @@ function Update () {
 	if(Input.GetMouseButton(0))
 	{
 		check = 1;
+		if(music_cut.isPlaying == false)
+		{
+			music_cut.Play();
+		}
+		
 	}
 	if(Input.GetMouseButtonUp(0))
 	{
@@ -36,7 +43,7 @@ function OnTriggerEnter (other : Collider)
 	{
 		if(check == 1)
 		{
-			Debug.Log("131365213213213");
+			//Debug.Log("131365213213213");
 			//gameObject.rigidbody.isKinematic = true;
 			//gameObject.collider.isTrigger = true;
 			

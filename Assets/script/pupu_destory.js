@@ -8,6 +8,7 @@ function Start () {
 
 function Update () {
 	
+	/*
 	if(gameObject.rigidbody.isKinematic == false)
 	{
 		if(gameObject.transform.position.y <= -7)
@@ -15,7 +16,8 @@ function Update () {
 			Destroy(gameObject);
 		}
 	}
-	else if(gameObject.rigidbody.isKinematic == true)
+	*/
+	if(gameObject.rigidbody.isKinematic == true)
 	{
 		child = gameObject.GetComponentsInChildren(Transform);
 		if(child[1].transform.position.y <= -7)
