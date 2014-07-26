@@ -49,6 +49,7 @@
      <Compile Include="Assets\script\Script_03_09.js" />
      <Compile Include="Assets\script\fall_out.js" />
      <Compile Include="Assets\script\mousePos.js" />
+     <Compile Include="Assets\script\newgame.js" />
      <Compile Include="Assets\script\pupu.js" />
      <Compile Include="Assets\script\pupu_destory.js" />
      <Compile Include="Assets\script\pupu_hit.js" />

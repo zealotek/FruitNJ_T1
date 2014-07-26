@@ -4,7 +4,7 @@ private var child : Component[];
 
 public var music_cut : AudioSource;
 
-var check : int;
+static var check : int;
 
 function Start () {
 
